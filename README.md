@@ -16,7 +16,8 @@ Then I think how I can get the file content, and how was the best form to obtain
 
 ## Tasks and Classes
 
-I divided the project into tasks and I created a one class for each  task, trying to apply the single responsibility principle.  
+I divided the project into tasks and I created a one class for each  task, trying to apply the single responsibility principle. 
+ 
 - CsvManager class: contains one method to read the file and get the dates and other for set the dates in a dictionary collection
 - SearchDays class: contains one method that gets the first and the last values of due dates. Another method give like a parameter this date and search each last Thursday of the month. The last method of this class the outline class method is in charge of finding the correct dates and prices.  
 - StocksCalculator class: this class takes the necessaries dates for calculating how many shares were bought in total and how many shares were bought in total and how much it resulted in selling them.
